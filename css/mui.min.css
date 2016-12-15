@@ -2352,6 +2352,7 @@ input[type=color],/*input[type=date],*/input[type=datetime-local],input[type=dat
 
 input[type="date"] {
     width: 100%;
+    float: left;
     height: 34px;
     margin-bottom: 10px;
     border-radius: 5px;
