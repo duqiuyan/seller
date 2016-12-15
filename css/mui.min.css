@@ -2348,6 +2348,7 @@ input[type=color],/*input[type=date],*/input[type=datetime-local],input[type=dat
 
 .kit-item-people {
     margin: 10px;
+    width: 100%;
 }
 
 input[type="date"] {
