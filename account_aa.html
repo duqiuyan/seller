@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>销售商系统</title> 
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<!--标准mui.css-->
+	<link rel="stylesheet" href="css/mui.min.css">
+	<!--App自定义的css-->
+	<link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/index.main.css">
+	<link rel="stylesheet" href="css/mui.picker.min.css" />		
+</head>
+<body>
+	<header class="headerBar mui-bar mui-bar-nav">
+        <a class="btn-color-w mui-icon mui-icon-arrowleft mui-pull-left" href="javascript:history.go(-1)"></a>
+        <h1 class="mui-title">结算明细</h1>
+        <a class="btn-color-w mui-icon mui-icon-chatbubble mui-pull-right" href="message_center.html"><span class="mui-badge">9</span></a>
+    </header>
+
+	<div class="mui-content">
+        <div class="mui-scroll">
+            <div class="kit-item-people">
+                <i class="fdj iconfont mui-icon mui-icon-search"></i>
+                <input type="date" name="date" value="">
+            </div>
+            <table width="100%"  border="1" cellspacing="0" cellpadding="2" bordercolor="#c8c7cc">
+                <tr align=center><td>订单编号</td><td>项目名称</td><td>上门金额</td><td>工时金额</td><td>评价得分</td><td>结算金额</td></tr>
+                <tr align=center><td>YY201202320</td><td>空调加液</td><td>5.00</td><td>230</td><td>65.21</td><td>220</td></tr>
+                <tr align=center><td>YY201202320</td><td>空调加液</td><td>5.00</td><td>45.00</td><td>100</td><td>220</td></tr>
+                <tr align=center><td>YY201202320</td><td>空调加液</td><td>5.00</td><td>45.00</td><td>90.21</td><td>220</td></tr>
+                <tr align=center><td>YY201202320</td><td>空调加液</td><td>5.00</td><td>45.00</td><td>66.30</td><td>220</td></tr>
+            </table>  
+        </div>
+        <div class="gongzi">
+            <span>统计数量:<a class="look" href="">1 </a></span>
+            <span>结算价合计:<a class="look" href="">54.00</a></span>
+        </div>
+	</div>
+	<script src="js/mui.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>销售商系统</title>
+
+    <!--移动web配置-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <!--加载样式-->
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/icons-extra.css">
+    <link rel="stylesheet" href="css/index.main.css">
+    <!--加载js文件-->
+    <script src="js/mui.min.js"></script>
+
+</head>
+<body>
+
+    <!--顶部标题栏-->
+    <header class="headerBar mui-bar mui-bar-nav">
+        <a class="btn-color-w mui-icon mui-icon-arrowleft mui-pull-left" href="javascript:history.go(-1)"></a>
+        <h1 class="mui-title">订单详情</h1>
+        <a class="btn-color-w mui-icon mui-icon-chatbubble mui-pull-right" href="message_center.html"><span class="mui-badge">9</span></a>
+    </header>
+
+    <!--底部Bar-->
+    <nav class="footerBar mui-bar mui-bar-tab">
+        <!-- <a class="mui-tab-item" href="#tabbar-view-home"> -->
+        <a class="mui-tab-item" href="#tabbar-view-home">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item mui-active" href="#tabbar-view-find">
+            <span class="mui-icon mui-icon-compose"></span>
+            <span class="mui-tab-label">我的订单</span>
+        </a>
+        <a class="mui-tab-item" href="#tabbar-view-user">
+            <span class="mui-icon mui-icon-contact"></span>
+            <span class="mui-tab-label">我的</span>
+        </a>
+    </nav>
+
+    <!--内容区域-->
+    <div class="mui-content">
+        <div class="mui-scroll">
+            <ul class="mui-table-view">
+                <li class="kitchen-item mui-table-view-cell mui-media">
+                    <a href="javascript:;">
+                        <!--文字信息-->
+                        <div class="title">
+                            <span>物流状态：</span>
+                            <small>(YY201609000799)</small>
+                            <span class="ing">待接单</span>
+                        </div>
+                        <div class="kit-item-txt mui-media-body">
+                            <p class='mui-icon'><img src="images/time.png" alt="">归属驿站：明鑫花苑驿站</p>
+                            <p class='mui-icon mui-icon-location'>福建省泉州市刺桐路国际新城1号楼1102国际新城1号楼1102<span class="look-lx">查看路线</span></p>
+                            <p class="name">
+                            <span class="mui-icon mui-icon-person">周小姐：18750571544<p class="btn-color-w mui-icon mui-icon-phone mui-pull-right"></p></span>
+                            </p>
+                        </div>
+                        <div class="title-b">
+                            <p class='changpin'><img src="images/dami.jpg" alt=""></p>
+                            <span class="jieshao">
+                                <p>金穗泰象王(5kg)</p>
+                                <p>数量：2</p>
+                            </span>
+                        </div>
+                        <div class="title-c">
+                            <span class="time">
+                                <p>订单编号：YY201608000899</p>
+                                <p>下单时间：2016-02-06 12:15:00</p>
+                                <p>付款时间：2016-02-06 12:15:00</p>
+                            </span>
+                        </div>
+                        <button type="button" class="mui-btn mui-btn-primary mui-icon mui-icon-phone-filled">
+                           联系公司
+                        </button>
+                        <input type="submit" value="&nbsp&nbsp&nbsp&nbsp接单&nbsp&nbsp&nbsp&nbsp">
+                    </a>
+                </li>
+                <div class="cell-interval"></div>
+            </ul>
+        </div>
+
+    </div>
+
+    <script>
+        mui.init({
+            swipeBack: false
+        });
+    </script>
+
+</body>
+</html>

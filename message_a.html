@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>销售商系统</title>
+    
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" href="css/app.css" />
+		<link rel="stylesheet" href="css/index.main.css">
+		<link rel="stylesheet" href="css/mui.picker.min.css" />
+	</head>
+
+	<body>
+		<header class="headerBar mui-bar mui-bar-nav">
+        <a class="btn-color-w mui-icon mui-icon-arrowleft mui-pull-left" href="javascript:history.go(-1)"></a>
+        <h1 class="mui-title">信息</h1>
+        <a class="btn-color-w mui-icon mui-icon-chatbubble mui-pull-right" href="message_center.html"><span class="mui-badge">9</span></a>
+    </header>
+		<div class="mui-content">
+		<div id="tabbar-view-find" class="mui-control-content mui-active">
+            <div id="segmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+                <a class="mui-control-item mui-active" href="#fxItemView1">驿站信息</a>
+                <a class="mui-control-item" href="#fxItemView2">商品储备信息</a>
+                <a class="mui-control-item" href="#fxItemView3">订单汇总</a>
+            </div>
+
+            <!--驿站信息模块-->
+            <div id="fxItemView1" class="fx-item-view mui-slider-item mui-control-content mui-active">
+                <div class="top-sch-box flex-col">
+                    <div class="centerflex">
+                        <i class="fdj iconfont mui-icon mui-icon-search"></i>
+                        <input type="text" name="" id="" value="" class="sch-txt" placeholder="搜索">
+                    </div>
+                </div>
+                <div id="scroll-fx1" class="fx-scroll-my mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <ul class="mui-table-view">
+                            <li class="mui-table-view-cell mui-media">
+                                <a class="mui-navigate-right" href="post_details.html">
+                                    <img class="mui-media-object mui-pull-left" src="images/dizhi.png">
+                                    <div class="mui-media-body">
+                                                明鑫花苑驿站
+                                        <p class="mui-ellipsis"> 地址：泉州市丰泽区成洲工业区大通厂</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a class="mui-navigate-right" href="post_details.html">
+                                    <img class="mui-media-object mui-pull-left" src="images/dizhi.png">
+                                    <div class="mui-media-body">
+                                                明鑫花苑驿站
+                                        <p class="mui-ellipsis"> 地址：泉州市丰泽区成洲工业区大通厂</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a class="mui-navigate-right" href="post_details.html">
+                                    <img class="mui-media-object mui-pull-left" src="images/dizhi.png">
+                                    <div class="mui-media-body">
+                                                明鑫花苑驿站
+                                        <p class="mui-ellipsis"> 地址：泉州市丰泽区成洲工业区大通厂</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a class="mui-navigate-right" href="post_details.html">
+                                    <img class="mui-media-object mui-pull-left" src="images/dizhi.png">
+                                    <div class="mui-media-body">
+                                                明鑫花苑驿站
+                                        <p class="mui-ellipsis"> 地址：泉州市丰泽区成洲工业区大通厂</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a class="mui-navigate-right" href="post_details.html">
+                                    <img class="mui-media-object mui-pull-left" src="images/dizhi.png">
+                                    <div class="mui-media-body">
+                                                明鑫花苑驿站
+                                        <p class="mui-ellipsis"> 地址：泉州市丰泽区成洲工业区大通厂</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button type="button" class="mui-btn-yellow"><a href="" class="more">
+                                查看更多
+            </a></button>
+            </div>
+
+            <!--商品储备信息模块-->
+            <div id="fxItemView2" class="fx-item-view mui-slider-item mui-control-content">
+                <div class="top-sch-box flex-col">
+                    <div class="centerflex">
+                        <i class="fdj iconfont mui-icon mui-icon-search"></i>
+                        <input type="text" name="" id="" value="" class="sch-txt" placeholder="搜索">
+                    </div>
+                </div>
+                <div id="scroll-fx2" class="fx-scroll-my mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <table width="100%"  border="1" cellspacing="0" cellpadding="2" bordercolor="#c8c7cc">
+                        <tr align=center><td>产品名称</td><td>归属驿站</td><td>需求量</td><td>操作</td></tr>
+                        <tr align=center><td>金穗泰象王大米5斤装</td><td>东海滨城</td><td>-5</td><td><a class="look" href="messageaa.html">查看明细</a></td></tr>
+                        <tr align=center><td>金穗泰象王大米5斤装</td><td>裕景弯</td><td>10</td><td><a class="look" href="messageaa.html">查看明细</a></td></tr>
+                        <tr align=center><td>金穗泰象王大米5斤装</td><td>裕景弯</td><td>8</td><td><a class="look" href="messageaa.html">查看明细</a></td></tr>
+                        <tr align=center><td>金穗泰象王大米5斤装</td><td>东海滨城</td><td>10</td><td><a class="look" href="messageaa.html">查看明细</a></td></tr>
+                        </table>   
+                    </div>
+                </div>
+                <button type="button" class="mui-btn-yellow">
+                    <a href="" class="more">
+                        查看更多
+                    </a>
+                </button>
+            </div>
+
+            <!--订单汇总模块-->
+            <div id="fxItemView3" class="fx-item-view mui-slider-item mui-control-content">
+                <div class="kit-item-people">
+                    <i class="fdj iconfont mui-icon mui-icon-search"></i>
+                    <input type="date" name="date" value="">
+                </div>
+                <div id="scroll-fx3" class="fx-scroll-my mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <table width="100%"  border="1" cellspacing="0" cellpadding="2" bordercolor="#c8c7cc">
+                        <tr align=center><td>驿站</td><td>商品合计</td><td>操作</td></tr>
+                        <tr align=center><td>东海滨城</td><td>5</td><td><a class="look" href="account_dd.html">查看明细</a></td></tr>
+                        <tr align=center><td>裕景弯</td><td>10</td><td><a class="look" href="account_dd.html">查看明细</a></td></tr>
+                        <tr align=center><td>裕景弯</td><td>8</td><td><a class="look" href="account_dd.html">查看明细</a></td></tr>
+                        <tr align=center><td>东海滨城</td><td>10</td><td><a class="look" href="account_dd.html">查看明细</a></td></tr>
+                        </table>   
+                    </div>
+                </div>
+                <button type="button" class="mui-btn-yellow">
+                    <a href="" class="more">
+                        查看更多
+                    </a>
+                </button>
+            </div>
+        </div>
+		</div>
+		<script src="js/mui.min.js"></script>
+	</body>
+
+</html>
