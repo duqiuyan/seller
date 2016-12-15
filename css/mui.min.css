@@ -2391,6 +2391,7 @@ textarea {
 }
 
 select {
+    width: 100%;
     font-size: 14px;
     height: 32px;
     float: left;
